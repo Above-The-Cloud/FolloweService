@@ -22,5 +22,5 @@ from service import views
 
 urlpatterns = [
     re_path(r'^hello$', views.hello),
-    re_path(r'^train', include('train.urls')),
+    re_path(r'^train/', include('train.urls')),
 ]

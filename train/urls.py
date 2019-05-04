@@ -15,6 +15,9 @@ Including another URLconf
 """
 from django.urls import path, re_path, include
 
+from train import views
 
 urlpatterns = [
+    re_path(r'^hello$', views.hello),
+    re_path(r'^rcmd$', views.rcmd),
 ]
