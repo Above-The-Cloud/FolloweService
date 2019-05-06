@@ -2,8 +2,8 @@ templates
 db.sqlite3
 **/__pycache__
 .idea
-media/*
-!media/system/*
+#media/*
+#!media/system/*
 static
 **/migrations/*
 config.json
